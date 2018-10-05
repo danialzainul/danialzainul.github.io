@@ -1,0 +1,207 @@
+html, body {
+  height: 100%;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+header, #intro {
+  height: 102%;
+}
+
+p, li {
+  color: #747372;
+}
+
+strong {
+  font-weight: 700;
+}
+
+/* DEFINE COLORS AS VARIABLES */
+
+/*== Navbar styles ====*/
+.navbar-dark .navbar-nav .nav-link, .navbar-dark .navbar-brand {
+  color: white;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #4285f4;
+  border-bottom: 2px solid #4285f4;;
+}
+
+.navbar-dark .navbar-nav .nav-link i {
+  margin: 0 10px;
+}
+
+/*== Landing page ==*/
+#intro {
+  background: url("https://images.pexels.com/photos/1366957/pexels-photo-1366957.jpeg")no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+#welcome-section {
+  color: white;
+}
+
+#intro h1 {
+  font-weight: 700;
+  letter-spacing: 2px;
+  padding-bottom: 15px;
+}
+
+#intro h4 {
+  padding-bottom: 15px;
+}
+
+#intro a {
+  border: 2px solid white;
+  background-color: transparent;
+  color: white;
+}
+
+#intro a:hover {
+  background-color: white;
+  color: black;
+}
+
+/*== Content styles ==*/
+section {
+  padding: 70px 0 30px 0;
+}
+
+.heading {
+  color: #293347;
+  font-weight: 700;
+  padding-bottom: 20px;
+}
+
+/*== About me ==*/
+#about-me p {
+  line-height: 25px;
+}
+
+.btn-outline-primary:hover {
+  background-color: #448aff !important;
+  color: white !important;
+}
+
+/*== Skills ==*/
+#skills .tech {
+  color: #293347;
+  padding-top: 20px;
+}
+
+/*== Projects ==*/
+#projects .project-card {
+  padding-top: 20px;
+}
+
+.jumbotron {
+  padding: 0 0 20px 0;
+}
+
+.jumbotron .card-description {
+  padding: 0 20px;
+}
+
+.jumbotron .card-title {
+  color: #293347;
+  padding-top: 20px;
+}
+
+/* carousel icons, change the fill after 23: fill='%23xxxxxx' */
+.carousel-control-prev-icon {
+ background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23448aff' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23448aff' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}
+
+/* carousel round icon picture indicator */
+.carousel .carousel-indicators li {
+  border: 1px solid #448aff;
+}
+
+/*== Contact Form ==*/
+#thankyou_message {
+  color: #00C851;
+  padding: 10px 0;
+  border-radius: 3px;
+}
+
+section:last-child {
+  padding-bottom: 70px;
+}
+
+#honeypot {
+  display: none; /* makes the field not visible to humans */
+}
+
+/*== Footer styles ==*/
+footer {
+  padding: 70px 0 30px 0;
+}
+
+footer .footer-heading {
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+footer .footer-links p {
+  color: white;
+}
+
+footer .footer-links a:hover {
+  color: #448aff;
+}
+
+footer .footer-contact i {
+  margin-right: 5px;
+}
+
+footer .footer-social a i {
+  margin: 30px 10px;
+}
+
+footer hr {
+  width: 50%;
+  background-color: #448aff;
+}
+
+footer .copyright p, footer .copyright a  {
+  color: #747372;
+}
+
+footer .copyright a:hover {
+  color: #448aff
+}
+
+/* ========================== */
+/* Mobile Devices */
+@media screen and (max-width: 800px) {
+  .navbar-dark .navbar-nav .nav-link {
+    text-align: left;
+  }
+  .navbar-dark .navbar-nav .nav-link i {
+    font-size: 20px;
+    margin-right: 30px;
+  }
+
+  .jumbotron .card-description {
+    padding: 0;
+  }
+
+  #thankyou_message h4 em {
+    font-size: 14px;
+  }
+
+  footer .footer-links {
+    padding-bottom: 20px;
+  }
+  footer .container {
+    padding: 50px 0 10px 0;
+  }
+}

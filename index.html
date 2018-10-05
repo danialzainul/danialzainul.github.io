@@ -1,1 +1,384 @@
-Hello World
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap core CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.9/css/mdb.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <!-- My Stylesheets -->
+    <link href="style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <title>Danial Zainul</title>
+  </head>
+
+  <body>
+  <!-- Main navigation -->
+  <header>
+    <!-- Navbar - fixed, scroll -->
+    <div id="navbar">
+      <nav class="navbar navbar-expand-lg fixed-top scrolling-navbar navbar-dark unique-color-dark">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="http://www.gdurl.com/84y8" width="30" height="30" alt="">
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav" aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="basicExampleNav">
+            <div class="navbar-nav mr-auto">
+              <a href="#about-me" class="nav-link">About</a>
+              <a href="#skills" class="nav-link">Skills</a>
+              <a href="#projects" class="nav-link">Projects</a>
+              <a href="#form" class="nav-link">Contact</a>
+            </div>
+            <div class="navbar-nav nav-flex-icons">
+              <a href="https://www.twitter.com/memojumbo" class="nav-link" target="_blank"><i class="fa fa-twitter"></i></a>
+              <a href="https://www.instagram.com/memojumbo" class="nav-link" target="_blank"><i class="fa fa-instagram"></i></a>
+              <a href="https://www.github.com/danialzainul" class="nav-link" target="_blank"><i class="fa fa-github"></i></a>
+              <a href="https://www.codepen.io/memojumbo" class="nav-link" target="_blank"><i class="fa fa-codepen"></i></a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <!-- Landing image - 100% height -->
+    <div id="intro" class="view">
+      <div class="mask rgba-black-strong">
+        <div class="container-fluid d-flex align-items-center justify-content-center h-100">
+          <div class="row d-flex justify-content-center">
+            <div id="welcome-section">
+              <h1 class="">Danial Zainul</h1>
+              <h4 class="">Full-stack web developer</h4>
+              <a href="#about-me" class="btn btn-lg" role="button">
+                Read more
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- End of Navbar & Landing Image -->
+
+  <!-- Content -->
+  <main>
+    <div class="container">
+      <!-- About -->
+      <section id="about-me">
+        <h2 class="heading">About</h2>
+        <div class="row d-flex justify-content-center">
+          <div class="col-sm-8">
+            <p>
+              My first taste of coding was in 2016, when i enrolled into <a href="https://www.nextacademy.com/" target="_blank">NEXT Academy's</a> Full-stack Web Development Bootcamp.
+              From then onwards, I started coding during my free time and taking online courses from <a href="https:www.udemy.com" target="_blank">Udemy</a> to further enhance my skills.
+              At present, I am pursuing the "Responsive Web Design Certification" from <a href="https://www.freecodecamp.org/" target="_blank">freeCodeCamp</a>.
+            </p>
+            <p>
+              Currently looking for a <strong>junior web developer</strong> position or <strong>freelancing</strong> projects.
+            </p>
+            <a href="https://drive.google.com/file/d/1Uu_gAn8YLBl00SqiFpEM9As997VIEp_6/view" class="btn btn-outline-primary" role="button" target="_blank">
+              View resume <i class="fa fa-file ml-1"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+      <!-- End of About me -->
+
+      <hr>
+
+      <!-- Skills -->
+      <section id="skills">
+        <h2 class="heading">Skills</h2>
+        <div class="row d-flex justify-content-center">
+          <div class="col-md-8">
+            <p>Listed are some of the technologies which I am familiar with.</p>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-md-3">
+            <h3 class="tech">Front-End</h3>
+            <p>HTML, CSS, JavaScript, Bootstrap, jQuery</p>
+          </div>
+          <div class="col-md-3">
+            <h3 class="tech">Back-End</h3>
+            <p>Node.js, Express, Rails</p>
+          </div>
+          <div class="col-md-3">
+            <h3 class="tech">Database & Tech</h3>
+            <p>MongoDB, SQLite, PostgreSQL, GitHub, Heroku, Responsive Web Design</p>
+          </div>
+        </div>
+
+      </section>
+      <!-- End of Skills -->
+
+      <hr>
+
+      <!-- Projects -->
+      <section id="projects">
+        <h2 class="heading">Projects</h2>
+        <div class="row d-flex justify-content-center">
+          <div class="col-md-8">
+            <p>
+              Below are some projects which I've completed.
+            </p>
+          </div>
+        </div>
+        <!-- Project #1 YelpCamp -->
+        <div class="project-card">
+          <div class="row d-flex justify-content-center">
+            <div class="col-md-8">
+              <div class="jumbotron">
+                <div class="view overlay">
+                  <!--Carousel Wrapper-->
+                  <div id="carousel-example-1x" class="carousel slide carousel-fade" data-ride="carousel">
+                    <!--Indicators-->
+                    <ol class="carousel-indicators">
+                      <li data-target="#carousel-example-1x" data-slide-to="0" class="active"></li>
+                      <li data-target="#carousel-example-1x" data-slide-to="1"></li>
+                      <li data-target="#carousel-example-1x" data-slide-to="2"></li>
+                    </ol>
+                    <!--Slides-->
+                    <div class="carousel-inner" role="listbox">
+                      <div class="carousel-item active">
+                        <img class="d-block w-100" src="http://gdurl.com/JNSk" alt="First slide">
+                      </div>
+                      <div class="carousel-item">
+                        <img class="d-block w-100" src="http://gdurl.com/QVlc" alt="Second slide">
+                      </div>
+                      <div class="carousel-item">
+                        <img class="d-block w-100" src="http://gdurl.com/AcEJ" alt="Third slide">
+                      </div>
+                    </div>
+                    <!--Controls-->
+                    <a class="carousel-control-prev" href="#carousel-example-1x" role="button" data-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carousel-example-1x" role="button" data-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Next</span>
+                    </a>
+                  </div>
+                </div>
+                <div class="card-description">
+                  <h4 class="card-title"><strong>YelpCamp</strong></h4>
+                  <p class="card-text">YelpCamp is a website where users can create and search for campgrounds.</p>
+                  <p class="card-text">Built with: HTML, CSS, JavaScript, Node.js, Express, MongoDB</p>
+                  <a href="http://yelpcamp-danial.herokuapp.com/" class="btn btn-outline-primary" role="button" target="_blank">
+                    Visit YelpCamp.com <i class="fa fa-mail-forward ml-1"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Project #2 DevMatch -->
+        <div class="project-card">
+          <div class="row d-flex justify-content-center">
+            <div class="col-md-8">
+              <div class="jumbotron">
+                <div class="view overlay">
+                  <!--Carousel Wrapper-->
+                  <div id="carousel-example-1y" class="carousel slide carousel-fade" data-ride="carousel">
+                    <!--Indicators-->
+                    <ol class="carousel-indicators">
+                      <li data-target="#carousel-example-1y" data-slide-to="0" class="active"></li>
+                      <li data-target="#carousel-example-1y" data-slide-to="1"></li>
+                      <li data-target="#carousel-example-1y" data-slide-to="2"></li>
+                    </ol>
+                    <!--Slides-->
+                    <div class="carousel-inner" role="listbox">
+                      <div class="carousel-item active">
+                        <img class="d-block w-100" src="http://gdurl.com/jEge" alt="First slide">
+                      </div>
+                      <div class="carousel-item">
+                        <img class="d-block w-100" src="http://gdurl.com/XbND" alt="Second slide">
+                      </div>
+                      <div class="carousel-item">
+                        <img class="d-block w-100" src="http://gdurl.com/ocwu" alt="Third slide">
+                      </div>
+                    </div>
+                    <!--Controls-->
+                    <a class="carousel-control-prev" href="#carousel-example-1y" role="button" data-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carousel-example-1y" role="button" data-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Next</span>
+                    </a>
+                  </div>
+                </div>
+                <div class="card-description">
+                  <h4 class="card-title"><strong>DevMatch</strong></h4>
+                  <p class="card-text">Looking to get connected? DevMatch offers users free or monthly subscription options with varying accessibility to other users’ information.</p>
+                  <p class="card-text">Built with: HTML, CSS, Rails</p>
+                  <a href="http://devmatch-danial.herokuapp.com/" class="btn btn-outline-primary" role="button" target="_blank">
+                    Visit DevMatch.com <i class="fa fa-mail-forward ml-1"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Project #3 KFeed -->
+        <div class="project-card">
+          <div class="row d-flex justify-content-center">
+            <div class="col-md-8">
+              <div class="jumbotron">
+                <div class="view overlay">
+                  <!--Carousel Wrapper-->
+                  <div id="carousel-example-1z" class="carousel slide carousel-fade" data-ride="carousel">
+                    <!--Indicators-->
+                    <ol class="carousel-indicators">
+                      <li data-target="#carousel-example-1z" data-slide-to="0" class="active"></li>
+                      <li data-target="#carousel-example-1z" data-slide-to="1"></li>
+                      <li data-target="#carousel-example-1z" data-slide-to="2"></li>
+                    </ol>
+                    <!--Slides-->
+                    <div class="carousel-inner" role="listbox">
+                      <div class="carousel-item active">
+                        <img class="d-block w-100" src="http://gdurl.com/Xi6B" alt="First slide">
+                      </div>
+                      <div class="carousel-item">
+                        <img class="d-block w-100" src="http://gdurl.com/Enzp" alt="Second slide">
+                      </div>
+                      <div class="carousel-item">
+                        <img class="d-block w-100" src="http://gdurl.com/Q-f8" alt="Third slide">
+                      </div>
+                    </div>
+                    <!--Controls-->
+                    <a class="carousel-control-prev" href="#carousel-example-1z" role="button" data-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carousel-example-1z" role="button" data-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Next</span>
+                    </a>
+                  </div>
+                </div>
+                <div class="card-description">
+                  <h4 class="card-title"><strong>KFeed</strong></h4>
+                  <p class="card-text">Have excess food and want to find a cause? KFeed allows users to organize or join a "feeding session" for the homeless people.</p>
+                  <p class="card-text">
+                    Coded by a team for NEXT Academy's Web Development Bootcamp's final project and presentation.
+                    One of the <strong>selected projects</strong> to be <strong>featured</strong> on NEXT Academy's <a href="https://www.nextacademy.com/student-projects/next-academy-reviews-kfeed" target="_blank">website</a>.
+                  </p>
+                  <p class="card-text">Built with: HTML, CSS, JavaScript, Rails</p>
+                  <a href="http://kfeed.herokuapp.com" class="btn btn-outline-primary" role="button" target="_blank">
+                    Visit KFeed.com <i class="fa fa-mail-forward ml-1"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End of Projects -->
+
+      <hr>
+
+      <!-- Email form -->
+      <section id="form">
+        <h2 class="heading">Contact</h2>
+        <div class="row d-flex justify-content-center">
+          <div class="col-md-8">
+            <p>Drop me a message if you would like to hire me, or work together.</p>
+            <form class="gform" method="POST" action="https://script.google.com/macros/s/AKfycbzNU7eCAslLaBpw0ODcpkx4B-TjdHBjzFel0vfhveh4NErV4_E/exec">
+              <div class="md-form mb-0">
+                <input type="text" id="name" name="name" class="form-control" required>
+                <label for="name" class="">Your name</label>
+              </div>
+              <div class="md-form mb-0">
+                <input type="email" id="email" name="email" class="form-control" required>
+                <label for="email" class="">Your email</label>
+              </div>
+              <div class="md-form mb-0">
+                <input type="text" id="subject" name="subject" class="form-control" required>
+                <label for="subject" class="">Subject</label>
+              </div>
+              <div class="md-form">
+                <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea" required></textarea>
+                <label for="message">Your message</label>
+              </div>
+              <button type="submit" class="btn btn-outline-primary">Submit </button>
+              <div style="display: none;" id="thankyou_message" >
+                <h4><i class="fa fa-check" aria-hidden="true"></i><em> Thanks for contacting me! I will get back to you soon! </em></h4>
+              </div>
+            </form>
+            <!-- HONEYPOT - PREVENT SPAM -->
+            <form action="https://script.google.com/macros/s/..." method="post">
+              <!--input id must be honeypot or else it wont work-->
+              <label class="sr-only">Keep this field blank</label>
+              <input id="honeypot" type="text" name="honeypot" value="" />
+            </form>
+          </div>
+        </div>
+      </section>
+      <!-- End of Contact form -->
+    </div>
+    <!-- End of Main Container  -->
+
+    <!-- Footer -->
+    <footer class="page-footer unique-color-dark">
+      <div class="container-fluid">
+        <div class="row d-flex justify-content-center">
+          <div class="col-md-6">
+            <h4 class="footer-heading">find me!</h4>
+            <hr>
+            <div class="footer-links">
+              <div class="footer-contact">
+                <p><i class="fa fa-home fa-lg"></i> Selangor, Malaysia</p>
+                <p><i class="fa fa-envelope fa-lg"></i> danialbzainul-at-gmail.com</p>
+                <p><i class="fa fa-phone fa-lg"></i> +60 12 663 1736</p>
+                <a href="https://drive.google.com/file/d/1Uu_gAn8YLBl00SqiFpEM9As997VIEp_6/view" target="_blank">
+                  <i class="fa fa-file fa-lg"></i> View Resume
+                </a>
+              </div>
+              <div class="footer-social">
+                <p>
+                  <a href="https://www.twitter.com/memojumbo" target="_blank"><i class="fa fa-twitter fa-2x"></i></a>
+                  <a href="https://www.instagram.com/memojumbo" target="_blank"><i class="fa fa-instagram fa-2x"></i></a>
+                  <a href="https://www.github.com/danialzainul" target="_blank"><i class="fa fa-github fa-2x"></i></a>
+                  <a href="https://www.codepen.io/memojumbo" target="_blank"><i class="fa fa-codepen fa-2x"></i></a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="copyright">
+          <p>© 2018 Copyright: Danial Zainul</p>
+          <p>Created my free logo at <a href="https://logomakr.com" target="_blank">LogoMakr.com</a></p>
+        </div>
+      </div>
+    </footer>
+    <!-- End of Footer -->
+  </main>
+  <!-- End of Content -->
+
+
+    <!-- SCRIPTS -->
+    <!-- JQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.9/js/mdb.min.js"></script>
+    <!-- Submit contact form to Google using AJAX -->
+    <script data-cfasync="false" type="text/javascript" src="form-submission-handler.js"></script>
+    <!-- Smooth scroll -->
+    <script src="smooth-scroll.js"></script>
+  </body>
+</html>
